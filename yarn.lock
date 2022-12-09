@@ -459,10 +459,10 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@remix-project/remixd@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@remix-project/remixd/-/remixd-0.5.5.tgz#9775c9216750c57fe97d96c7c8dfcb3ff5e7b841"
-  integrity sha512-6aJAG9cR+ZPTjS2CLvQlk2obYpaiSuKuO2RkuOwmM1Srd1aRU8YY57jyWl6BofzNf3ewSeGS8KpaJDje5QE7Wg==
+"@remix-project/remixd@^0.6.4":
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/@remix-project/remixd/-/remixd-0.6.8.tgz#bc17971a095d19dc3509281593ffab3109d6e2e5"
+  integrity sha512-8gPTjJFHJ4Shhfj4bps6301OlhzPmZ27zGqQNqR/SMmrE1CcAzHHZfGvBQ+5Cgxs/vM9y0pjDaMakK0cHgU4WQ==
   dependencies:
     "@remixproject/plugin" "^0.3.11"
     "@remixproject/plugin-api" "^0.3.11"
@@ -1983,9 +1983,9 @@ decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 decompress-response@^3.3.0:
   version "3.3.0"
