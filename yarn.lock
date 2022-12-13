@@ -459,10 +459,10 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@remix-project/remixd@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@remix-project/remixd/-/remixd-0.5.5.tgz#9775c9216750c57fe97d96c7c8dfcb3ff5e7b841"
-  integrity sha512-6aJAG9cR+ZPTjS2CLvQlk2obYpaiSuKuO2RkuOwmM1Srd1aRU8YY57jyWl6BofzNf3ewSeGS8KpaJDje5QE7Wg==
+"@remix-project/remixd@^0.6.4":
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/@remix-project/remixd/-/remixd-0.6.8.tgz#bc17971a095d19dc3509281593ffab3109d6e2e5"
+  integrity sha512-8gPTjJFHJ4Shhfj4bps6301OlhzPmZ27zGqQNqR/SMmrE1CcAzHHZfGvBQ+5Cgxs/vM9y0pjDaMakK0cHgU4WQ==
   dependencies:
     "@remixproject/plugin" "^0.3.11"
     "@remixproject/plugin-api" "^0.3.11"
@@ -7035,9 +7035,9 @@ pupa@^2.1.1:
     escape-goat "^2.0.0"
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 queue-microtask@^1.1.0:
   version "1.2.3"
