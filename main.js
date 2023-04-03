@@ -4,9 +4,8 @@ const path = require('path')
 const os = require('os')
 const fetch = require('node-fetch')
 const semver = require('semver')
-const IPFS = require('ipfs')
 const config = require('./config')
-const IPFSGateway = require('ipfs-http-gateway')
+const fixPath = require('fix-path')
 
 const { version } = require('./package.json')
 const applicationMenu = require('./applicationMenu')
@@ -150,6 +149,8 @@ function getFolder(client) {
 }
 
 let remixdStart = () => {
+  // electron GUI does not inherit the path from the terminal, this is a workaround
+  fixPath()
   console.log('start shared folder service')
   try {
     startService('folder', (ws, client) => {
@@ -173,30 +174,8 @@ let remixdStart = () => {
   }
 }
 
-let ipfsStart = async () => {
-  try {
-    const repo = os.homedir() + '/.remix-ipfsnode'
-    const node = await IPFS.create({
-      repo,
-      config: {
-        Addresses: {
-          Gateway: `/ip4/127.0.0.1/tcp/5001`
-        }        
-      }
-    })
-    const gateway = new IPFSGateway(node)
-    const id = await node.id()
-    gateway.start()
-    console.log('ipfs node', id)
-    console.log('ipfs node repo', repo)
-  } catch (err) {
-    console.error(err)
-  }
-}
-
 app.on('ready', () => {
   setupApplicationMenu()
   remixdStart()
   createWindow()
-  ipfsStart()
 })
